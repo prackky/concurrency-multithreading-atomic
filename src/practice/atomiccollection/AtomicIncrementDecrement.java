@@ -36,7 +36,7 @@ public class AtomicIncrementDecrement {
 			while (getCount() > 0) {
 				System.out.println(Thread.currentThread().getName()+ " - Current count is greater than zero");
 				try {
-					Thread.sleep(5);
+					Thread.sleep(2);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
@@ -44,7 +44,7 @@ public class AtomicIncrementDecrement {
 			while (getCount() < 0) {
 				System.out.println(Thread.currentThread().getName()+ " - Current count is lesser than zero");
 				try {
-					Thread.sleep(5);
+					Thread.sleep(2);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}

@@ -4,7 +4,7 @@ import java.util.concurrent.BlockingQueue;
 
 public class Producer {
 	
-	private int id;
+	private Integer id;
 	private final String producerName;
 	private final BlockingQueue<Product> productQueue;
 	
